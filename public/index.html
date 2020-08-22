@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Happy Birthday Aalisha</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/wasimkhan/image/upload/v1598071836/Birthday-card/Aalisha_cx748n.jpg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <audio loop id="audioID">
+      <source
+        src="https://res.cloudinary.com/wasimkhan/video/upload/v1595934771/Birthday-card/cute_happy_birthday_ap3kkj.mp3"
+      />
+    </audio>
+
+    <div class="body">
+      <div id="controls">
+        <img
+          src="https://res.cloudinary.com/wasimkhan/image/upload/v1596427454/Birthday-card/Contols_-_Add_On-26-512_bwblhn.png"
+          alt="info"
+          width="30px"
+          id="info"
+          data-toggle="modal"
+          data-target="#infoModal"
+          style="margin-right: 6px;"
+        />
+        <img
+          src="https://res.cloudinary.com/wasimkhan/image/upload/v1596427417/Birthday-card/mute_nosound_sound_red_control_media_multimedia_icon_video_audio-512_wzvhnj.png"
+          alt="pause"
+          width="25px"
+          onclick="pauseMusic()"
+          id="pause"
+        />
+        <img
+          src="https://res.cloudinary.com/wasimkhan/image/upload/v1596427370/Birthday-card/88-512_k6tkfy.png"
+          alt="play"
+          width="25px"
+          id="play"
+          onclick="playMusic()"
+        />
+      </div>
+      <img
+        src="https://res.cloudinary.com/wasimkhan/image/upload/v1595990467/Birthday-card/giphy_nn05ca.gif"
+        width="300px"
+        height="200px"
+        class="text-center"
+      />
+      <div class="card">
+        <div class="front face">
+          <img
+            id="crash"
+            src="https://res.cloudinary.com/wasimkhan/image/upload/v1598071836/Birthday-card/Aalisha_cx748n.jpg"
+            width="60%"
+            alt="Background"
+            height=""
+          />
+        </div>
+        <div class="back face">
+          <div class="animation">
+            <p>
+              I don’t know why, but I just can’t stop crushing on you, maybe
+              it’s because of your smile.
+            </p>
+            <p>
+              Happy Birthday, Keep Smiling...&#128522;
+            </p>
+            <!-- <h2><strong>Wasim</strong></h2> -->
+          </div>
+        </div>
+      </div>
+      <div class="name">
+        <h4>
+          <a href="https://github.com/webdevwasim" target="blank"
+            ><i class="fa fa-facebook-square" aria-hidden="true"></i>&copy;
+            WasimKhan</a
+          >
+        </h4>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="infoModal"
+      data-backdrop="static"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="mySmallModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog d-block mx-auto"
+        role="document"
+        style="width: 480px; max-width: 80%;"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Info</h5>
+            <button type="button" class="close d-block" onclick="closeModal()">
+              <span aria-hidden="true" style="color: red;">
+                <strong>&times;</strong></span
+              >
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <ul>
+                <li>
+                  Sorry for taking your photo without permission &#128539;
+                </li>
+                <li>
+                  Click on your photo to <strong>OPEN</strong> the card & click
+                  outside of the card to <strong>CLOSE</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="external.js"></script>
+  </body>
+</html>
